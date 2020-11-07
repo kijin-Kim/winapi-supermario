@@ -1,0 +1,322 @@
+{
+  "Actors" :[
+    {
+      "ActorType": "Mario",
+      "Components": [
+        {
+          "ComponentType": "TransformComponent",
+          "ComponentProperties": {
+            "Position": {
+              "x": 300,
+              "y": 150
+            },
+            "Velocity": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+
+        {
+          "ComponentType": "AnimatedTextureComponent",
+          "ComponentProperties": {
+            "Textures": [
+              {
+                "FileName": "assets/textures/mario",
+                "Region": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 16,
+                  "Bottom": 16
+                }
+              }
+
+            ],
+            "RenderOrder": 2
+          }
+
+        },
+
+        {
+          "ComponentType": "ColliderComponent",
+          "ComponentProperties": {
+            "ColliderSize": {
+              "x": 16,
+              "y": 16
+            },
+            "ColliderTag": "Player",
+            "Gravity": true
+          }
+        },
+
+        {
+          "ComponentType": "PlayerCameraComponent"
+        },
+
+        {
+          "ComponentType": "HealthComponent",
+          "ComponentProperties": {
+            "Health": 1
+          }
+        },
+
+        {
+          "ComponentType": "PowerComponent",
+          "ComponentProperties": {
+            "Powers": ""
+          }
+        }
+
+      ]
+    },
+
+    {
+      "ActorType": "Enemy",
+      "Components": [
+        {
+          "ComponentType": "TransformComponent",
+          "ComponentProperties": {
+            "Position": {
+              "x": 502,
+              "y": 100
+            },
+            "Velocity": {
+              "x": 100,
+              "y": 0
+            }
+          }
+        },
+
+        {
+          "ComponentType": "AnimatedTextureComponent",
+          "ComponentProperties": {
+            "Textures": [
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 16,
+                  "Bottom": 16
+                }
+              },
+
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 16,
+                  "Top": 0,
+                  "Right": 32,
+                  "Bottom": 16
+                }
+              }
+
+
+            ],
+            "RenderOrder": 2
+          }
+
+        },
+
+        {
+          "ComponentType": "ColliderComponent",
+          "ComponentProperties": {
+            "ColliderSize": {
+              "x": 16,
+              "y": 16
+            },
+            "ColliderTag": "Enemy",
+            "Gravity": true
+          }
+        }
+      ]
+    },
+
+    {
+      "ActorType": "Enemy",
+      "Components": [
+        {
+          "ComponentType": "TransformComponent",
+          "ComponentProperties": {
+            "Position": {
+              "x": 653,
+              "y": 100
+            },
+            "Velocity": {
+              "x": 100,
+              "y": 0
+            }
+          }
+        },
+
+        {
+          "ComponentType": "AnimatedTextureComponent",
+          "ComponentProperties": {
+            "Textures": [
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 16,
+                  "Bottom": 16
+                }
+              },
+
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 16,
+                  "Top": 0,
+                  "Right": 32,
+                  "Bottom": 16
+                }
+              }
+
+
+            ],
+            "RenderOrder": 2
+          }
+
+        },
+
+        {
+          "ComponentType": "ColliderComponent",
+          "ComponentProperties": {
+            "ColliderSize": {
+              "x": 16,
+              "y": 16
+            },
+            "ColliderTag": "Enemy",
+            "Gravity": true
+          }
+        }
+      ]
+    },
+
+    {
+      "ActorType": "Enemy",
+      "Components": [
+        {
+          "ComponentType": "TransformComponent",
+          "ComponentProperties": {
+            "Position": {
+              "x": 1753,
+              "y": 100
+            },
+            "Velocity": {
+              "x": 100,
+              "y": 0
+            }
+          }
+        },
+
+        {
+          "ComponentType": "AnimatedTextureComponent",
+          "ComponentProperties": {
+            "Textures": [
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 16,
+                  "Bottom": 16
+                }
+              },
+
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 16,
+                  "Top": 0,
+                  "Right": 32,
+                  "Bottom": 16
+                }
+              }
+
+
+            ],
+            "RenderOrder": 2
+          }
+
+        },
+
+        {
+          "ComponentType": "ColliderComponent",
+          "ComponentProperties": {
+            "ColliderSize": {
+              "x": 16,
+              "y": 16
+            },
+            "ColliderTag": "Enemy",
+            "Gravity": true
+          }
+        }
+      ]
+    },
+
+    {
+      "ActorType": "Enemy",
+      "Components": [
+        {
+          "ComponentType": "TransformComponent",
+          "ComponentProperties": {
+            "Position": {
+              "x": 2232,
+              "y": 100
+            },
+            "Velocity": {
+              "x": 100,
+              "y": 0
+            }
+          }
+        },
+
+        {
+          "ComponentType": "AnimatedTextureComponent",
+          "ComponentProperties": {
+            "Textures": [
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 16,
+                  "Bottom": 16
+                }
+              },
+
+              {
+                "FileName": "assets/textures/enemies",
+                "Region": {
+                  "Left": 16,
+                  "Top": 0,
+                  "Right": 32,
+                  "Bottom": 16
+                }
+              }
+
+
+            ],
+            "RenderOrder": 2
+          }
+
+        },
+
+        {
+          "ComponentType": "ColliderComponent",
+          "ComponentProperties": {
+            "ColliderSize": {
+              "x": 16,
+              "y": 16
+            },
+            "ColliderTag": "Enemy",
+            "Gravity": true
+          }
+        }
+      ]
+    }
+
+  ]
+}
